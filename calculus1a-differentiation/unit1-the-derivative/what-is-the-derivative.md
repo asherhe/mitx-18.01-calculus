@@ -1,3 +1,7 @@
+---
+title: "What is the Derivative?"
+---
+
 # What is the Derivative?
 
 Put into normal-human-readable-words, the derivative of a function $f(x)$ at a point $a$ is how fast $f(x)$ is changing at that exact point $a$. This is a bit of an oxymoron, because for something to change, you've gotta give it time to change, but we're measuring change at an *instant*. But before we can understand how this is defined mathematically, let's first measure the rate of change over a period of time.

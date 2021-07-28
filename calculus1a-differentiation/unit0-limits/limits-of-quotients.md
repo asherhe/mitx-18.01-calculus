@@ -1,4 +1,6 @@
-# Limits of Quotients
+---
+title: Limits of Quotients
+---
 
 As we said in our [limit laws](./introduction-to-limits#some-properties-of-limits), $\lim_{x \to a}\frac{f(x)}{g(x)}$ exists *as long as* $M\ne0$. Now we raise an absurd question — what if $M$ *is* zero?
 
