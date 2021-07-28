@@ -1,1 +1,7 @@
 theme: jekyll-theme-cayman
+
+name: "MITx 18.01 Calculus Notes"
+description: "My notes on MIT's course on Single-Variable Calculus"
+url: "https://asherhe.github.io/mitx-18.01-calculus"
+
+markdown: kramdown
