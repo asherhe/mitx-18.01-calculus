@@ -1,4 +1,7 @@
-# Introduction to Limits
+---
+title: "Introduction to Limits"
+mathjax: true
+---
 
 Limits are one of the foundations of calculus, but it's kind of hard to grasp their concept. I mean, when mathematicians say:
 $$
