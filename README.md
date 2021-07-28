@@ -8,3 +8,4 @@ This is a collection of my notes for MIT's 18.01 Calculus course. Feel free to b
   - Unit 0: Limits
     - [Introduction to Limits](./calculus1a-differentiation/unit0-limits/introduction-to-limits)
     - [Continuity](./calculus1a-differentiation/unit0-limits/continuity)
+    - [Limits of Quotients](./calculus1a-differentiation/unit0-limits/limits-of-quotients)
