@@ -1,6 +1,6 @@
 ---
 title: Geometric Interpretation of the Derivative
-definition: Because "instantaneous rate of change at a point $a$" is too much of a oxymoron.
+definition: Because \"instantaneous rate of change at a point $a$\" is too much of an oxymoron.
 ---
 
 Our definition of the derivative from earlier is very nice, but — like everything else in math — is there another interpretation for this?
