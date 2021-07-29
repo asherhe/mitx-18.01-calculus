@@ -1,6 +1,5 @@
 ---
 title: Geometric Interpretation of the Derivative
-mathjax: true
 ---
 
 Our definition of the derivative from earlier is very nice, but — like everything else in math — is there another interpretation for this?
