@@ -1,6 +1,5 @@
 ---
 title: Continuity
-mathjax: true
 ---
 
 The concept of continuity is very intuitive. I mean, even a third grader can say whether a curve is continuous ("it has a hole in it, so it's not continuous"). But it's harder to define formally ("it has a hole in it" is never enough for mathematicians). Here's how mathematicians define it:
