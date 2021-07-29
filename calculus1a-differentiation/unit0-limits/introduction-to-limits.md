@@ -55,4 +55,3 @@ $$
 \text{Division of Limits (Part 1): }&\lim_{x \to a}\frac{f(x)}{g(x)}=\frac L M\text{, if } M\ne0
 \end{align*}
 $$
-
