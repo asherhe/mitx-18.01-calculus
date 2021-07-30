@@ -3,7 +3,9 @@ title: What is the Derivative?
 description: Change
 ---
 
-Put into normal-human-readable-words, the derivative of a function $f(x)$ at a point $a$ is how fast $f(x)$ is changing at that exact point $a$. This is a bit of an oxymoron, because for something to change, you've gotta give it time to change, but we're measuring change at an *instant*. But before we can understand how this is defined mathematically, let's first measure the rate of change over a period of time.
+Put into normal-human-readable-words, the derivative of a function $f(x)$ at a point $a$ is how fast $f(x)$ is changing at that exact point $a$​. This is a bit of an oxymoron, because for something to change, you've gotta give it time to change, but we're measuring change at an *instant*. But before we can understand how this is defined mathematically, let's first measure the rate of change over a period of time.
+
+Also note that the $x$ in $f(x)$ doesn't have to be time — it could be anything. A function is essentially this object that gives you an output if you give it an input.
 
 Measuring the change in $f(x)$ over a period from $a$ to $b$ looks like this:
 
@@ -35,7 +37,7 @@ $$
 
 And then we can just look for the value of this limit, using our function $f$.
 
-For a real-world example, suppose we throw a calculus textbook off of the very top of the Empire State building, and its trajectory is modeled (in meters above splat level) as $f(t)= 443 + 20t - 10t^2$​​, with $t$​ being the time since we threw the textbook. How fast is it going say, one second after you throw it?
+For a real-world example, suppose we throw a [calculus textbook off of the very top of the Empire State building](https://www.desmos.com/calculator/jbtmyzk9lk), and its trajectory is modeled (in meters above splat level) as $f(t)= 443 + 20t - 10t^2$​​, with $t$​ being the time since we threw the textbook. How fast is it going say, one second after you throw it?
 
 We can just simply calculate the limit:
 
@@ -52,4 +54,7 @@ $$
 
 So after 1 second, the textbook is going at $0\frac ms$. What does this mean? Is it floating in the air?
 
-The derivative describes *instantaneous* rate of change, so right at the instant at which $t=1$​, the textbook will not move. If you imagine throwing something, at some point, it will reach the highest it'll go, and it'll start falling. At $t=1$​​, the textbook is perfectly at that peak point, so it appears that it won't be moving (but not for long)
+The derivative describes *instantaneous* rate of change, so right at the instant at which $t=1$​, the textbook will not move. If you imagine throwing something, at some point, it will reach the highest it'll go, and it'll start falling. At $t=1$​​​, the textbook is perfectly at that peak point, so it appears that it won't be moving (but not for long). But at least most of New York City can see it now.
+
+And as we can see from our cancellation, floating constant terms actually don't matter much when calculating the derivative of something, which makes sense. Moving the starting point up or down still doesn't change how fast it was going.
+
