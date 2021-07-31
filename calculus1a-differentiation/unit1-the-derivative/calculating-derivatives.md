@@ -83,7 +83,7 @@ $$
 &=nx^{n-1}
 \end{align*}
 $$
-And it all works out, although the algebra was kind of crazy (even worse was the $\TeX$ typesetting.
+And it all works out, although the algebra was kind of crazy (even worse was the $\TeX$​ typesetting).
 
 I still haven't gotten around to proving this for any old number, but it'll pop up someday. If there's this "EDIT: I solved it" in big bold letters below this paragraph one day, I'd be quite happy.
 
