@@ -38,9 +38,18 @@ g'(x)=\lim_{\Delta x \to 0} \frac{g(x + \Delta x) - g(x)} {\Delta x}
 \end{align*}
 $$
 
-We also have "the derivative of the sum is the sum of the derivatives." Again, we can use the Limit Law of Addition to deal with this. Out of $\TeX$ typesetting laziness, I won't show the proof here, but it should be easy enough.
-
-Difference of derivatives is somewhat similar to sum of derivatives. However, note that this doesn't exactly work for product and quotient of derivatives — I think that'll appear sometime later.
+We also have "the derivative of the sum is the sum of the derivatives." We can use the Limit Law of Addition to deal with this (I'll be writing this in [Leibniz Notation](./leibniz-notation) because it's slightly more convenient — I'm writing these notes *after* I watched the next section. 
+$$
+\begin{align*}
+\frac{d}{dx} (f(x) + g(x))
+&= \lim_{\Delta x \to 0} \frac{[f(x+\Delta x)+g(\Delta x)]-[f(x)-g(x)]}{\Delta x} \\
+&= \lim_{\Delta x \to 0} \frac{[f(x+\Delta x)-f(x)] + [g(x+\Delta x)-g(x)]}{\Delta x} \\
+&= \lim_{\Delta x \to 0} \frac{f(x+\Delta x)-f(x)}{\Delta x}
+ + \lim_{\Delta x \to 0} \frac{g(x+\Delta x)-f(x)}{\Delta x} \\
+&= f'(x)+g'(x)
+\end{align*}
+$$
+Difference of derivatives is somewhat similar to sum of derivatives. Out of $\TeX$​ typesetting laziness, I won't show the proof here. However, note that this doesn't exactly work for product and quotient of derivatives — I think that'll appear sometime later.
 
 And finally, we have the power rule, which is actually very easy once you understand it, and it'll also make computing the derivative of a polynomial a piece of cake. Basically, if $f(x)=	x^n$​, then $f'(x)=nx^{n-1}$​. There are two ways of proving this — an algebraic way and a geometric way (that's not as rigorous but more intuitive). 3Blue1Brown has a great explanation of the geometric proof [here](https://www.youtube.com/watch?v=S0_qX4VJhMQ&list=PLZHQObOWTQDMsr9K-rj53DwVRMYO3t5Yr&index=3), so I guess I'll explain the algebraic one.
 
