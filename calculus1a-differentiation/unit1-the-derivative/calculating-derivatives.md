@@ -92,9 +92,14 @@ $$
 &=nx^{n-1}
 \end{align*}
 $$
-And it all works out, although the algebra was kind of crazy (even worse was the $\TeX$​ typesetting).
 
-I still haven't gotten around to proving this for any old number, but it'll pop up someday. If there's this "EDIT: I solved it" in big bold letters below this paragraph one day, I'd be quite happy.
+And it all works out, although the algebra was kind of crazy (even worse was the $\TeX$ typesetting).
 
----
+I still haven't gotten around to proving this for any real number yet, but I'll prove someday. I think.
 
+With our current rules for derivatives, we can easily take the derivative of a few function. First of all, the derivative of any polynomial would be:
+
+$$
+\frac d{dx}\left(c_0+c_1x+c_2x^2+\cdots+c_nx^n\right)=c_1+2c_2x+3c_3x^2+\cdots+nc_nx^{n-1}
+$$
+And if we know the derivatives of two functions, taking the derivative of their sum or difference won't be very hard.
