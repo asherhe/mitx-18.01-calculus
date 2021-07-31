@@ -20,7 +20,7 @@ f'(x)=\lim_{h \to 0} \frac{f(x + h) - f(x)} h
 \end{align*}
 $$
 
-And now we have the derivative of a function, as a function, for which we can just directly plug in values and get a result, instead of doing a long computation with limits for only a specific value.
+And now we have the derivative of a function, as a function, for which we can just directly pug in values and get a result, instead of doing a long computation with limits for only a specific value.
 
 ## Properties of Derivatives from Limit Laws
 
@@ -37,10 +37,55 @@ g'(x)=\lim_{\Delta x \to 0} \frac{g(x + \Delta x) - g(x)} {\Delta x}
 &= kf'(x)
 \end{align*}
 $$
+
 We also have "the derivative of the sum is the sum of the derivatives." Again, we can use the Limit Law of Addition to deal with this. Out of $\TeX$ typesetting laziness, I won't show the proof here, but it should be easy enough.
 
 Difference of derivatives is somewhat similar to sum of derivatives. However, note that this doesn't exactly work for product and quotient of derivatives — I think that'll appear sometime later.
 
 And finally, we have the power rule, which is actually very easy once you understand it, and it'll also make computing the derivative of a polynomial a piece of cake. Basically, if $f(x)=	x^n$​, then $f'(x)=nx^{n-1}$​. There are two ways of proving this — an algebraic way and a geometric way (that's not as rigorous but more intuitive). 3Blue1Brown has a great explanation of the geometric proof [here](https://www.youtube.com/watch?v=S0_qX4VJhMQ&list=PLZHQObOWTQDMsr9K-rj53DwVRMYO3t5Yr&index=3), so I guess I'll explain the algebraic one.
 
-So suppose that $f(x)=x^n$
+So suppose that $f(x)=x^n$​, where $n>0$. $f'(x)$ would then be:
+
+$$
+\begin{align*}
+\lim_{\Delta x\to0} \frac{f(x+\Delta x)-f(x)}{\Delta x}
+&=\lim_{\Delta x\to0} \frac{(x+\Delta x)^n-x^n}{\Delta x} \\
+&=\lim_{\Delta x\to0} \frac{[(x+\Delta x)-x]\left[(x+\Delta x)^{n-1}+(x+\Delta x)^{n-2}x+(x+\Delta x)^{n-3}x^2+\cdots+x^{n-1}\right]}{\Delta x} \\
+&=\lim_{\Delta x\to0} \frac{\Delta x\left[(x+\Delta x)^{n-1}+(x+\Delta x)^{n-2}x+(x+\Delta x)^{n-3}x^2+\cdots+x^{n-1}\right]}{\Delta x} \\
+&=\lim_{\Delta x\to0} \left[(x+\Delta x)^{n-1}+(x+\Delta x)^{n-2}x+(x+\Delta x)^{n-3}x^2+\cdots+x^{n-1}\right] \\
+&= x^{n-1}+x^{n-2}x+x^{n-3}x^2+\cdots+x^{n-1} \\
+&= nx^{n-1}
+\end{align*}
+$$
+
+Of course, if $n=0$, we just have $f(x)=1$, and its derivative is obviously zero
+
+Now if we want $n<0$, let $m=-n$​. I'm going to write this in [Leibniz notation](./leibniz-notation), which is a bit different from our current notation because we don't need to define a function to use Leibniz notation. I'm writing this right after I learned Leibniz notation, so I recommend you learn about Leibniz notation. We have:
+
+$$
+\begin{align*}
+\frac{df}{dx}=\frac{d}{dx}\left(\frac1{x^m}\right)
+&=\lim_{\Delta x \to 0} \frac{\frac1{(x + \Delta x)^m} - \frac1{x^m}}{\Delta x} \\
+&=\lim_{\Delta x \to 0} \frac{\frac{x^m-(x+\Delta x)^m}{x^m(x + \Delta x)^m}}{\Delta x} \\
+&=\lim_{\Delta x \to 0} \frac
+{\left[x-(x+\Delta x)\right]\left[x^{m-1}+x^{m-2}(x+\Delta x)+x^{m-3}(x+\Delta x)^2+\cdots+(x+\Delta x)^{m-1}\right]}
+{\Delta x[x(x+\Delta x)]^m} \\
+&=\lim_{\Delta x \to 0} \frac
+{-\Delta x\left[x^{m-1}+x^{m-2}(x+\Delta x)+x^{m-3}(x+\Delta x)^2+\cdots+(x+\Delta x)^{m-1}\right]}
+{\Delta x[x(x+\Delta x)]^m} \\
+&=\lim_{\Delta x \to 0} -\frac
+{x^{m-1}+x^{m-2}(x+\Delta x)+x^{m-3}(x+\Delta x)^2+\cdots+(x+\Delta x)^{m-1}}
+{[x(x+\Delta x)]^m} \\
+&=-\frac{x^{m-1}+x^{m-2}x+x^{m-3}x^2+\cdots+x^{m-1}}{(x^2)^m} \\
+&=-\frac{mx^{m-1}}{x^{2m}} \\
+&=n\left(\frac{x^{-n-1}}{x^{-2n}}\right) \\
+&=nx^{-n-1+2n} \\
+&=nx^{n-1}
+\end{align*}
+$$
+And it all works out, although the algebra was kind of crazy (even worse was the $\TeX$ typesetting.
+
+I still haven't gotten around to proving this for any old number, but it'll pop up someday. If there's this "EDIT: I solved it" in big bold letters below this paragraph one day, I'd be quite happy.
+
+---
+
