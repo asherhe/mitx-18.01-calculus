@@ -16,4 +16,5 @@ You can do the course online — it's available on [edX](https://www.edx.org/xse
     - [Geometric Interpretation of the Derivative](./calculus1a-differentiation/unit1-the-derivative/geometric-interpretation-of-the-derivative.md)
     - [The Derivative as a Function](./calculus1a-differentiation/unit1-the-derivative/the-derivative-as-a-function)
     - [Calculating Derivatives](./calculus1a-differentiation/unit1-the-derivative/calculating-derivatives)
+    - [Leibniz Notation](./calculus1a-differentiation/unit1-the-derivative/leibniz-notation)
 
