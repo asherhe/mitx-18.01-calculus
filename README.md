@@ -17,4 +17,5 @@ You can do the course online — it's available on [edX](https://www.edx.org/xse
     - [The Derivative as a Function](./calculus1a-differentiation/unit1-the-derivative/the-derivative-as-a-function)
     - [Calculating Derivatives](./calculus1a-differentiation/unit1-the-derivative/calculating-derivatives)
     - [Leibniz Notation](./calculus1a-differentiation/unit1-the-derivative/leibniz-notation)
+    - [Second Derivatives and Higher](./calculus1a-differentiation/unit1-the-derivative/second-derivatives-and-higher)
 
