@@ -1,4 +1,6 @@
-# MITx 18.01 Calculus notes
+---
+title: Home
+---
 
 This is a collection of my notes for MIT's 18.01 Calculus course. Feel free to browse through them if you like. I hope that they might be helpful.
 
