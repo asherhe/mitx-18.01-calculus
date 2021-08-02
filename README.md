@@ -1,7 +1,3 @@
----
-title: Home
----
-
 This is a collection of my notes for MIT's 18.01 Calculus course. Feel free to browse through them if you like. I hope that they might be helpful.
 
 You can do the course online — it's available on [edX](https://www.edx.org/xseries/mitx-18.01x-single-variable-calculus) and also [MIT's Open Learning Library](https://openlearning.mit.edu/courses-programs/open-learning-library).
