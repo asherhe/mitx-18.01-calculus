@@ -19,3 +19,4 @@ You can do the course online — it's available on [edX](https://www.edx.org/xse
     - [Trigonometric Functions: Sine and Cosine](./calculus1a-differentiation/unit1-the-derivative/trig-functions-sine-and-cosine)
   - Unit 2: Differentiation
     - [Linear Approximation](./calculus1a-differentiation/unit2-differentiation/linear-approximation)
+    - [The Product Rule](./calculus1a-differentiation/unit2-differentiation/product-rule)
