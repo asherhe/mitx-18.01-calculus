@@ -17,3 +17,5 @@ You can do the course online — it's available on [edX](https://www.edx.org/xse
     - [Leibniz Notation](./calculus1a-differentiation/unit1-the-derivative/leibniz-notation)
     - [Second Derivatives and Higher](./calculus1a-differentiation/unit1-the-derivative/second-derivatives-and-higher)
     - [Trigonometric Functions: Sine and Cosine](./calculus1a-differentiation/unit1-the-derivative/trig-functions-sine-and-cosine)
+  - Unit 2: Differentiation
+    - [Linear Approximation](./calculus1a-differentiation/unit2-differentiation/linear-approximation)

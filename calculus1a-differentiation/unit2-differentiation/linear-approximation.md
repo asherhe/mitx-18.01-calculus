@@ -1,0 +1,13 @@
+---
+title: Linear Approximation
+description: When you're just too lazy to calculate $\sqrt{534}$ by hand
+---
+
+Sometimes, you just have a function that you don't wan to compute by hand. What do you do? Approximate it with derivatives! After all, derivatives are how fast the function is changing at that exact moment — why not utilize that to approximate values?
+
+So let's use our example — $\sqrt{534}$​. 534 is quite close to $23^2=529$​, so our result would be somewhere near 23. We can get more detail by finding the derivative of $\sqrt x$​, since the graph of $\sqrt x$​ is slightly sloping upwards there. Using the power law, we know that $\frac{d}{dx}\left(\sqrt x\right)=\frac1{2\sqrt x}$​. This means that the derivative at $x=23$​ would be $\frac1{2\sqrt{23}}$​. In the spirit of approximating things, we can further approximate $\sqrt{23}$​, since 23 is close to $5^2=25$​. The derivative of $\sqrt x$​ at $x=5$​ is $\frac1{2\sqrt{5}}$​. We can approximate this yet *again*, because 5 is close to $2^2=4$​, so the derivative at $x=2$​ is $\frac1{2\sqrt2}$​. And for a final time, we can approximate this, because 2 is close to $1^2=1$​. The derivative of $\sqrt x$​ at $x=1$​ is $\frac1{2\sqrt1}=0.5$​. This means that $\sqrt2\approx1+1\cdot0.5=1.5$​, so the derivative at $x=2$​ is $\frac13$​, meaning that $\sqrt5\approx2+\frac13=\frac73$​, so the derivative at $x=5$​ is $\frac3{14}$​. This means that $\sqrt{23}\approx5+(-2)\cdot\frac3{14}=\frac{32}7$​, so the derivative at $x=23$​ is $\frac7{64}$​. And finally, this means that $\sqrt{534}\approx23+5\cdot\frac7{64}=\frac{1507}{64}\approx23.546875\dots$, which is off by about 2% from the answer (which is actually $23.108440\dots$​). All of this goes to show that we can find a surprisingly accurate square root value by just using some elementary math and the derivative of the square root function.
+
+If we take the second derivative of $\sqrt x$ , we get $-\frac{1}{4 x^\frac32}$, which is negative for all values of $x$, meaning that the graph of $\sqrt x$ is concave down. This tells us that our calculations will always be slightly larger than what it's supposed to be, since the graph of $\sqrt x$ is curving *away* from our tangent line. We can take this computation one step further and also incorporate our second derivative in our calculation to account for the curvature of the graph, giving us even *more* accuracy. Of course that *still* won't be perfect, but it'll be even *better* (and also include even more calculations).
+
+In general, you can do this with *any* function, as long as you can compute their derivative (and calculate the derivative by hand).
+
