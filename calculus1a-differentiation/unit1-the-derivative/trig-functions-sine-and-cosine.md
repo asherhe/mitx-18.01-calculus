@@ -1,5 +1,5 @@
 ---
-title: Trigonometric Functions: Sine and Cosine
+title: Trigonometric Functions &mdash; Sine and Cosine
 description: Because $\frac{d}{d\theta}\sin\theta$ matters too
 ---
 
