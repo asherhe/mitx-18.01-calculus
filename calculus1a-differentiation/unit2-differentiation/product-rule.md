@@ -22,6 +22,7 @@ However, this proof is not very rigourous. So here's a more rigorous one.
 ---
 
 Let $h(x)=f(x)g(x)$. Then,
+
 $$
 \begin{align*}
 h'(x)=\lim_{\Delta x \to 0}\frac{\Delta h}{\Delta x}
@@ -40,6 +41,7 @@ $$
 ---
 
 One thing to note is that, like the sum rule, the power rule can be generalized to multiple terms. For example, if we want to know $(uvw)'$, we have:
+
 $$
 \begin{align*}
 (uvw)'&=[(uv)w]' \\
@@ -48,4 +50,5 @@ $$
       &=uvw'+u'vw+uv'w \\
 \end{align*}
 $$
+
 We can also write this as $(uvw)'=u'vw+uv'w+uvw'$. We can then use this to find $(uvwz)'$, and so on.

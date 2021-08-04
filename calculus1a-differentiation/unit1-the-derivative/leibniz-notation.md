@@ -10,9 +10,11 @@ And Leibniz Notation can also include functions and equations. If we have a func
 And if we want to say that the derivative of something is equal to some expression, we can use $\frac{df}{dx}=3x^2+4x$.
 
 To say that the derivative of some expression is equal to some value at a specific point ($f'(a)=b$ in prime notation), we can just use
+
 $$
 \left.\frac{df}{dx}\right|_{x=a}=b
 $$
-One great thing about Leibniz notation is that it actually shows you what the variables *mean*. If we just have a plain old function, $f(x)$​​​​​​, it could mean anything (we can at least get a bit more detail with $f(t)$​​​​​​, but it isn't too much help). But if we have, say, $\frac{dA}{dr}$​​​, we know it has something to do with area ($A$​​​) and radius ($r$​​​)
+
+One great thing about Leibniz notation is that it actually shows you what the variables *mean*. If we just have a plain old function, $f(x)$, it could mean anything (we can at least get a bit more detail with $f(t)$, but it isn't too much help). But if we have, say, $\frac{dA}{dr}$, we know it has something to do with area ($A$) and radius ($r$)
 
 Leibniz notation takes a while getting used to, but once you get used to it, you will realize how helpful it is.
