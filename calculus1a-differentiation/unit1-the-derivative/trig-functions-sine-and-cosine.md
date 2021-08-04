@@ -17,5 +17,8 @@ $$
 $$
 So the derivative of $\sin\theta$​ is just $\cos\theta$​  times whatever $\frac{\sin\Delta\theta}{\Delta\theta}$​ is as $\Delta\theta \to 0$​. We can find this geometrically using just the definition of sine and a unit circle.
 
-![](/img/sineapproximation.png)
+![](./img/sineapproximation.png)
 
+As we can see, for really small values of $\theta$, $\sin\theta=\theta$, so $\frac{\sin\Delta\theta}{\Delta\theta}=1$, and our whole derivative is just a simple $\cos\theta$.
+
+Similarly, we can turn $\frac{d}{d\theta}\cos\theta$ into $\cos\theta\left(\frac{\cos\Delta\theta-1}{\Delta\theta}\right)-\frac{\sin\theta\sin\Delta\theta}{\Delta\theta}$, which is just $-\sin\theta\left(\frac{\sin\Delta\theta}{\Delta\theta}\right)$. Since we already know that $\frac{\sin\Delta\theta}{\Delta\theta}=1$, the whole thing just turns into $-\sin\theta$.
