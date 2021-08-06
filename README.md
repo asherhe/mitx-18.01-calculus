@@ -20,3 +20,4 @@ You can do the course online — it's available on [edX](https://www.edx.org/xse
   - Unit 2: Differentiation
     - [Linear Approximation](./calculus1a-differentiation/unit2-differentiation/linear-approximation)
     - [The Product Rule](./calculus1a-differentiation/unit2-differentiation/product-rule)
+    - [The Quotient Rule](./calculus1a-differentiation/unit2-differentiation/quotient-rule)
