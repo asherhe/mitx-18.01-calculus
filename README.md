@@ -5,6 +5,7 @@ You can do the course online — it's available on [edX](https://www.edx.org/xse
 ## Notes
 
 - [Calculus 1A: Differentiation](https://openlearninglibrary.mit.edu/courses/course-v1:MITx+18.01.1x+2T2019/about)
+  - [Derivatives of Key Functions](./calculus1a-differentiation/derivatives-of-functions)
   - Unit 0: Limits
     - [Introduction to Limits](./calculus1a-differentiation/unit0-limits/introduction-to-limits)
     - [Continuity](./calculus1a-differentiation/unit0-limits/continuity)

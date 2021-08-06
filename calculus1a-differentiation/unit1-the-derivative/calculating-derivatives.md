@@ -49,7 +49,9 @@ $$
 &= f'(x)+g'(x)
 \end{align*}
 $$
-Difference of derivatives is somewhat similar to sum of derivatives. Out of $\TeX$​ typesetting laziness, I won't show the proof here. However, note that this doesn't exactly work for product and quotient of derivatives — I think that'll appear sometime later.
+Difference of derivatives is somewhat similar to sum of derivatives. Out of $\TeX$​​ typesetting laziness, I won't show the proof here. However, note that this doesn't exactly work for product and quotient of derivatives — I think that'll appear sometime later.
+
+## The Power Rule
 
 And finally, we have the power rule, which is actually very easy once you understand it, and it'll also make computing the derivative of a polynomial a piece of cake. Basically, if $f(x)=	x^n$​, then $f'(x)=nx^{n-1}$​. There are two ways of proving this — an algebraic way and a geometric way (that's not as rigorous but more intuitive). 3Blue1Brown has a great explanation of the geometric proof [here](https://www.youtube.com/watch?v=S0_qX4VJhMQ&list=PLZHQObOWTQDMsr9K-rj53DwVRMYO3t5Yr&index=3), so I guess I'll explain the algebraic one.
 
