@@ -41,8 +41,12 @@ $$
 \frac{d}{dx}\left(\frac{f(x)}{g(x)}\right)=\frac{f'(x)\cdot g(x)-f(x)\cdot g'(x)}{g(x)^2}
 $$
 
-## Polynomial Stuff
+[**The Chain Rule**](./unit2-differentiation/chain-rule)
+$$
+\frac{d}{dx}f(g(x))=f'(g(x))g'(x)
+$$
 
+## Polynomial Stuff
 $$
 \begin{align*}
 \text{Square function}   &\quad \frac{d}{dx}x^2=2x \\
