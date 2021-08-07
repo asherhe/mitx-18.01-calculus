@@ -15,11 +15,11 @@ It even seems as if $du$​ can cancel out! (of course, that's not really how li
 
 With this, [some](../unit1-the-derivative/calculating-derivatives) [other](./product-rule) [rules](./quotient-rule), and [a bunch of functions](../derivatives-of-functions), we can find the derivatives of absolutely monstrous expressions like this:
 $$
-5\left(6x^2 + \sqrt{\sin(3x) + \frac{4x^3 - }{x^2 - 2x + \tan(x) - 3}}\right)^8
+5\left(6x^2 + \sqrt{\sin(3x) + \frac{4x^3}{x^2 - 2x + \tan(x) - 3}}\right)^8
 $$
 In fact, let's do it as practice!
 
-## Factoring a monster expression
+## Derivative of a Monster Expression
 
 So suppose we have
 $$
@@ -37,4 +37,61 @@ We have a coefficient of 5, so we multiply everything that follows by it. We the
 
 So let's do it.
 
-Just so that we don't scare little kids, I'm going to use functions for some of the expressions, because without the functions, it's madness. Of course, I'm going to show you the madness first
+Caution: Algebra may scare the heck out of you
+$$
+\begin{align*}
+\frac{df}{dx} 
+&= \frac{d}{dx} 5\left(6x^2 + \sqrt{\sin(3x) + \frac{4x^3}{x^2 - 2x + \tan x - 3}}\right)^8 \\
+
+&= 5\left(8\left(6x^2 + \sqrt{\sin(3x) + \frac{4x^3}{x^2 - 2x + \tan x - 3}}\right)^7 
+ + \left(6x^2 + \sqrt{\sin(3x) + \frac{4x^3}{x^2 - 2x + \tan x - 3}}\right)'\right) \\
+&= 5\left(8\left(6x^2 + \sqrt{\sin(3x) + \frac{4x^3}{x^2 - 2x + \tan x - 3}}\right)^7 
+ + \left(12x + \left(\sqrt{\sin(3x) + \frac{4x^3}{x^2 - 2x + \tan x - 3}}\right)'\right)\right) \\
+ 
+&= 5\left(8\left(6x^2 + \sqrt{\sin(3x) + \frac{4x^3}{x^2 - 2x + \tan x - 3}}\right)^7 
+ + \left(12x + \left(\frac1{2\sqrt{\sin(3x) + \frac{4x^3}{x^2 - 2x + \tan x - 3}}}\right)
+ \left(\sin(3x) + \frac{4x^3}{x^2 - 2x + \tan x - 3}\right)'\right)\right) \\
+ 
+&= 5\left(8\left(6x^2 + \sqrt{\sin(3x) + \frac{4x^3}{x^2 - 2x + \tan x - 3}}\right)^7 
+ + \left(12x + \left(\frac1{2\sqrt{\sin(3x) + \frac{4x^3}{x^2 - 2x + \tan x - 3}}}\right)
+ \left(\sin(3x) + \left(\frac{4x^3}{x^2 - 2x + \tan x - 3}\right)'\right)\right)\right) \\
+ 
+&= 5\left(8\left(6x^2 + \sqrt{\sin(3x) + \frac{4x^3}{x^2 - 2x + \tan x - 3}}\right)^7 
+ + \left(12x + \left(\frac1{2\sqrt{\sin(3x) + \frac{4x^3}{x^2 - 2x + \tan x - 3}}}\right)
+ \left((\sin(3x))'
+ + \frac{12x^2(x^2-2x+\tan x-3)
+ - 4x^3(x^2-2x+\tan x-3)'}
+ {(x^2-2x+\tan x-3)^2}\right)\right)\right) \\
+&= 5\left(8\left(6x^2 + \sqrt{\sin(3x) + \frac{4x^3}{x^2 - 2x + \tan x - 3}}\right)^7 
+ + \left(12x + \left(\frac1{2\sqrt{\sin(3x) + \frac{4x^3}{x^2 - 2x + \tan x - 3}}}\right)
+ \left(3\cos(3x)
+ + \frac{12x^2(x^2-2x+\tan x-3)
+ - 4x^3(2x^2-2+\sec^2 x)}
+ {(x^2-2x+\tan x-3)^2}\right)\right)\right) \\
+\end{align*}
+$$
+And now we begin the long and arduous process of simplifying
+
+$$
+5\left(8\left(6x^2 + \sqrt{\sin(3x) + \frac{4x^3}{x^2 - 2x + \tan x - 3}}\right)^7 
+ + \left(12x + \left(\frac1{2\sqrt{\sin(3x) + \frac{4x^3}{x^2 - 2x + \tan x - 3}}}\right)
+ \left(3\cos(3x)
+ + \frac{12x^2(x^2-2x+\tan x-3)
+ - 4x^3(2x^2-2+\sec^2 x)}
+ {(x^2-2x+\tan x-3)^2}\right)\right)\right) \\
+$$
+
+Of course, we can do this by hand, but at this point, I'd rather just Wolfram|Alpha it, since the $\TeX$ typesetting is even more nightmarish than the algebra.
+$$
+81920\left(72x^2+2\sqrt{62x+\sin(3x)+\tan(x)-3}\right)^7+\frac{5}{2}\sqrt{62x+\sin(3x)+\tan(x)-3}\left(144x^2\left(x^2-2x+\tan(x)-3\right)-\frac{64x^3\left(4x^2+\sec^2(x)-2\right)}{\left(x^2-2x+\tan(x)-3\right)^2}+3\cos(3x)\right)+60x
+$$
+All of this algebra reminds me of this quote:
+
+> <span style="font-size: xx-large">“What do you think? Should we leave this up to freak out my algebra kids next period?”</span>
+>
+> [— Calculus teacher, with a particularly long chain rule problem on the board](https://mathprofessorquotes.com/post/643311134854774784/what-do-you-think-should-we-leave-this-up-to)
+
+Note: It's kind of hard for me to tell if I did this correctly. If I didn't do this correctly, please make your complaint here:
+
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeBZf9CggbKeJ4wL8Jg45VpVej-q75eVVr2EZ7YWUvFG_vb7A/viewform?embedded=true" width="640" height="637" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+
