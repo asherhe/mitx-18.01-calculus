@@ -8,23 +8,29 @@ We can add, subtract, multiply, and divide functions. There's still a lot we can
 So basically, the whole point of the chain rule is to find what happens if we take the derivative of $f(g(x))$ (hence the *chain* part of the chain rule). We have no idea what this is, so let's find out.
 
 The derivative of $f(g(x))$​ is the combined effect of both $f(x)$​ and $g(x)$​. Just so that our equations don't freak you out, let's let $u=g(x)$​. This will make our equations a lot nicer when we finish. If we move $x$​ by a bit (we'll call it $\Delta x$​), then $g(x)$​ will move by roughly $\Delta x\cdot g'(x)$​ ($\Delta x$​ will be going to zero anyways so don't complain about the fact that this isn't precise). This change in $g$​ will also show up in $f$​. So not only will $f$​ change by whatever it's supposed to change by, it'll also change by however much $g$​ changed. Rather than having $f(x)$​ change by $x$​, it'll change by $g(x)=u$​, because we have $g(x)$​ flipping $f(u)$​'s switches, meaning that $f(u)$​ now changes by $f'(u)\cdot g(x)$​. So in the end, the whole thing changes by $f'(g(x))\cdot g'(x)$​. Although this looks kind of sad in prime notation, but it looks all clean and elegant in Leibniz notation:
+
 $$
 \frac{df}{dx}=\frac{df}{du}\cdot\frac{du}{dx}
 $$
+
 It even seems as if $du$​ can cancel out! (of course, that's not really how life works — it's just notation). How nice.
 
 With this, [some](../unit1-the-derivative/calculating-derivatives) [other](./product-rule) [rules](./quotient-rule), and [a bunch of functions](../derivatives-of-functions), we can find the derivatives of absolutely monstrous expressions like this:
+
 $$
 5\left(6x^2 + \sqrt{\sin(3x) + \frac{4x^3}{x^2 - 2x + \tan(x) - 3}}\right)^8
 $$
+
 In fact, let's do it as practice!
 
 ## Derivative of a Monster Expression
 
 So suppose we have
+
 $$
 f(x) = 5\left(6x^2 + \sqrt{\sin(3x) + \frac{4x^3}{x^2 - 2x + \tan x - 3}}\right)^8
 $$
+
 And we want to find the derivative of this for whatever reason.
 
 To find the derivative of this, let's first think through how we would evaluate this normally.
@@ -38,6 +44,7 @@ We have a coefficient of 5, so we multiply everything that follows by it. We the
 So let's do it.
 
 Caution: Algebra may scare the heck out of you
+
 $$
 \begin{align*}
 \frac{df}{dx} 
@@ -70,6 +77,7 @@ $$
  {(x^2-2x+\tan x-3)^2}\right)\right)\right) \\
 \end{align*}
 $$
+
 And now we begin the long and arduous process of simplifying
 
 $$
@@ -82,9 +90,11 @@ $$
 $$
 
 Of course, we can do this by hand, but at this point, I'd rather just Wolfram|Alpha it, since the $\TeX$ typesetting is even more nightmarish than the algebra.
+
 $$
 81920\left(72x^2+2\sqrt{62x+\sin(3x)+\tan(x)-3}\right)^7+\frac{5}{2}\sqrt{62x+\sin(3x)+\tan(x)-3}\left(144x^2\left(x^2-2x+\tan(x)-3\right)-\frac{64x^3\left(4x^2+\sec^2(x)-2\right)}{\left(x^2-2x+\tan(x)-3\right)^2}+3\cos(3x)\right)+60x
 $$
+
 All of this algebra reminds me of this quote:
 
 > <span style="font-size: xx-large">“What do you think? Should we leave this up to freak out my algebra kids next period?”</span>
