@@ -89,7 +89,7 @@ $$
  {(x^2-2x+\tan x-3)^2}\right)\right)\right) \\
 $$
 
-Of course, we can do this by hand, but at this point, I'd rather just Wolfram|Alpha it, since the $\TeX$ typesetting is even more nightmarish than the algebra.
+Of course, we can do this by hand, but at this point, I'd rather just Wolfram\|Alpha it, since the $\TeX$ typesetting is even more nightmarish than the algebra.
 
 $$
 81920\left(72x^2+2\sqrt{62x+\sin(3x)+\tan(x)-3}\right)^7+\frac{5}{2}\sqrt{62x+\sin(3x)+\tan(x)-3}\left(144x^2\left(x^2-2x+\tan(x)-3\right)-\frac{64x^3\left(4x^2+\sec^2(x)-2\right)}{\left(x^2-2x+\tan(x)-3\right)^2}+3\cos(3x)\right)+60x
