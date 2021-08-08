@@ -105,3 +105,4 @@ Note: It's kind of hard for me to tell if I did this correctly. If I didn't do t
 
 <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeBZf9CggbKeJ4wL8Jg45VpVej-q75eVVr2EZ7YWUvFG_vb7A/viewform?embedded=true" width="640" height="637" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
 
+Also, I find that [this derivative calculator](https://www.derivative-calculator.net/) is actually extremely helpful — I just haven't gotten around checking my expression yet.
