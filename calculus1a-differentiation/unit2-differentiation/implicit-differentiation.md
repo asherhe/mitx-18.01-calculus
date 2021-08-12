@@ -39,7 +39,7 @@ Time for something a bit harder — a potato.
 
 Suppose we want to find the derivative of $0.8x^{2}+2y^{2}+\sin x-y\cos^{2}x=3$, given $x$ and $y$:
 
-![Potato Curve](img/potato.png)
+![Potato Curve](./img/potato.svg)
 
 We just take the derivative of both sides and do some algebra:
 
