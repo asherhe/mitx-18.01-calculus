@@ -25,3 +25,4 @@ You can do the course online — it's available on [edX](https://www.edx.org/xse
     - [The Chain Rule](./calculus1a-differentiation/unit2-differentiation/chain-rule)
     - [Implicit Differentiation](./calculus1a-differentiation/unit2-differentiation/implicit-differentiation)
     - [Inverse Functions](./calculus1a-differentiation/unit2-differentiation/inverse-functions)
+    - [Exponential Functions and Logarithms](./calculus1a-differentiation/unit2-differentiation/exponents-and-logarithms)

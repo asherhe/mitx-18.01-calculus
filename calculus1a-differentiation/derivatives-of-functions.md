@@ -17,7 +17,7 @@ $$
 
 **Linearity of Differentiation**
 
-This is a generalization of a few [properties of derivatives](./unit1-the-derivative/calculating-derivatives#properties-of-derivatives-from-limit-laws) that we found.
+This is a generalization of a few [properties of derivatives](./unit1-the-derivative/calculating-derivatives#properties-of-derivatives-from-limit-laws).
 
 $$
 \frac{d}{dx}(a\cdot f(x)+b\cdot g(x)=a\cdot f'(x)+b\cdot g'(x)
@@ -53,16 +53,23 @@ $$
 \frac{d}{dx} f^{-1}(x) = \frac 1 {f'(f^{-1}(x))}
 $$
 
-## Polynomial Stuff
+[**Logarithmic Differentiation**](./unit2-differentiation/exponents-and-logarithms#logarithmic-differentiation)
+
+$$
+(\ln f)'=\frac{f'}f \quad\text{or}\quad f'=f\cdot(\ln f)'
+$$
+
+## [Polynomials and Powers](./unit1-the-derivative/calculating-derivatives#the-power-rule)
 
 $$
 \begin{align*}
-\text{Square function}   &\quad \frac{d}{dx}x^2=2x \\
-\text{Cube function}     &\quad \frac{d}{dx}x^3=3x^2 \\
-\text{Square root}       &\quad \frac{d}{dx}\sqrt x=\frac1{2\sqrt x} \\
-\text{Powers in general} &\quad \frac{d}{dx}x^n=nx^{n-1} \\
-\text{Polynomials}       &\quad \frac{d}{dx}\sum_{i=0}^n c_ix^i
-                                           =\sum_{i=0}^n ic_ix^{i-1}
+\text{Square function}     &\quad \frac{d}{dx}x^2=2x \\
+\text{Cube function}       &\quad \frac{d}{dx}x^3=3x^2 \\
+\text{Square root}         &\quad \frac{d}{dx}\sqrt x=\frac1{2\sqrt x} \\
+\text{Reciprocal Function} &\quad \frac{d}{dx}x^{-1}=-\frac1{x^2}\\
+\text{Powers in general}   &\quad \frac{d}{dx}x^n=nx^{n-1} \\
+\text{Polynomials}         &\quad \frac{d}{dx}\sum_{i=0}^n c_ix^i
+                                             =\sum_{i=0}^n ic_ix^{i-1}
 \end{align*}
 $$
 
@@ -90,3 +97,18 @@ $$
 \frac{d}{dx} \csc^{-1} x &= -\frac 1 {|x| \sqrt{x^2 - 1}} \\
 \end{align*}
 $$
+
+## [Exponential and Logarithmic Functions](./unit2-differentiation/exponents-and-logarithms)
+
+$$
+\frac{d}{dx} e^x = e^x
+$$
+
+$$
+\frac{d}{dx} a^x = a^x \ln a
+$$
+
+$$
+\frac{d}{dx} \ln x=\frac1x
+$$
+
