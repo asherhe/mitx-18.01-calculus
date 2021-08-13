@@ -42,11 +42,19 @@ $$
 $$
 
 [**The Chain Rule**](./unit2-differentiation/chain-rule)
+
 $$
 \frac{d}{dx}f(g(x))=f'(g(x))g'(x)
 $$
 
+[**Derivatives of Inverse Functions**](./unit2-differentiation/inverse-functions)
+
+$$
+\frac{d}{dx} f^{-1}(x) = \frac 1 {f'(f^{-1}(x))}
+$$
+
 ## Polynomial Stuff
+
 $$
 \begin{align*}
 \text{Square function}   &\quad \frac{d}{dx}x^2=2x \\
@@ -68,5 +76,17 @@ $$
 \frac{d}{dx} \cot x &= -\csc^2 x \\
 \frac{d}{dx} \sec x &= \sec x \tan x \\
 \frac{d}{dx} \csc x &= -\csc x \cot x
+\end{align*}
+$$
+
+[**Inverse Trig Functions:**](./unit2-differentiation/inverse-functions#derivatives-of-inverse-trig-functions)
+$$
+\begin{align*}
+\frac{d}{dx} \sin^{-1} x &= \frac 1 {\sqrt{1 - x^2}} \\
+\frac{d}{dx} \cos^{-1} x &= -\frac 1 {\sqrt{1 - x^2}} \\
+\frac{d}{dx} \tan^{-1} x &= \frac 1 {x^2 + 1} \\
+\frac{d}{dx} \cot^{-1} x &= -\frac 1 {x^2 + 1} \\
+\frac{d}{dx} \sec^{-1} x &= \frac 1 {|x| \sqrt{x^2 - 1}} \\
+\frac{d}{dx} \csc^{-1} x &= -\frac 1 {|x| \sqrt{x^2 - 1}} \\
 \end{align*}
 $$
