@@ -94,3 +94,4 @@ $$
 \end{align*}
 $$
 Note that we didn't apply the chain rule immediately. That would've defeated the whole purpose of logarithmic differentiation, because we'd be back with a sad little $\frac{d}{dx} \sqrt x^x$, and that's kind of useless.
+
