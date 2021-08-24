@@ -74,7 +74,6 @@ $$
 $$
 
 ## [Trig Functions](./unit2-differentiation/quotient-rule#trig-functions-with-the-quotient-rule)
-
 $$
 \begin{align*}
 \frac{d}{dx} \sin x &= \cos x \\
@@ -104,9 +103,11 @@ $$
 \frac{d}{dx} e^x = e^x
 $$
 
+
 $$
 \frac{d}{dx} a^x = a^x \ln a
 $$
+
 
 $$
 \frac{d}{dx} \ln x=\frac1x

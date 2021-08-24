@@ -26,3 +26,7 @@ You can do the course online — it's available on [edX](https://www.edx.org/xse
     - [Implicit Differentiation](./calculus1a-differentiation/unit2-differentiation/implicit-differentiation)
     - [Inverse Functions](./calculus1a-differentiation/unit2-differentiation/inverse-functions)
     - [Exponential Functions and Logarithms](./calculus1a-differentiation/unit2-differentiation/exponents-and-logarithms)
+  - Unit 3: Approximation
+    - [Linear Approximations (And measurement error)](./calculus1a-differentiation/unit3-approximation/linear-approximations)
+    - [Quadratic Approximation](./calculus1a-differentiation/unit3-approximation/quadratic-approximation)
+    - [Newton's Method](./calculus1a-differentiation/unit3-approximation/newtons-method)
