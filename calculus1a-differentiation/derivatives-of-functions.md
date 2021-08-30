@@ -103,6 +103,9 @@ $$
 \frac{d}{dx} e^x = e^x
 $$
 
+$$
+\frac{d}{dx} e^{f(x)} = f'(x)e^{f(x)}
+$$
 
 $$
 \frac{d}{dx} a^x = a^x \ln a
